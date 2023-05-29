@@ -27,6 +27,17 @@ export default {
       },
     },
     {
+      name: 'ProductType',
+      title: 'ProductType',
+      type: 'string',
+      options: {
+        list: [
+          { title: "Painting", value: "painting" },
+          { title: "Studio", value: "studio" }
+        ],
+      },
+    },
+    {
       name: 'price',
       title: 'Price',
       type: 'number',
